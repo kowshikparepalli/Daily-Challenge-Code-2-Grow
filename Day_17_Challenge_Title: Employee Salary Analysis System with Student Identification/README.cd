@@ -1,0 +1,28 @@
+Includes the standard input-output library needed for printf() and scanf() functions.
+Declares character arrays (strings) to store the student’s Name, Registration Number, and Section.
+i, j for loops.
+choice for menu selection.
+employees for total number of employees.
+above, below to count employees above and below average.
+Declares a float array to store up to 10 salaries and variables for total, average, highest, and lowest salary.
+Asks and reads the student’s name.
+Asks and reads the registration number.
+Asks and reads the section.
+Reads the number of employees.
+Must be between 1 and 10.
+If the user enters a number outside the range 1–10, it prints an error message.
+Takes salary input for each employee.
+The loop runs for the number of employees entered.
+Starts a do-while loop — used to show the menu repeatedly until the user chooses to exit.
+Displays the menu options and reads the user’s choice.
+Prints all entered salaries.
+Each salary is shown with 2 decimal points.
+Calculates total and average salary using a loop.
+Prints both results.
+Finds the maximum (highest) and minimum (lowest) salary using a loop and prints them.
+Recalculates average salary,
+then counts how many salaries are above or below it.
+Implements a Bubble Sort algorithm to arrange salaries in ascending order.
+Ends the loop and exits the program.
+Displays a warning if the user enters an invalid menu number.
+Ends the program successfully.
