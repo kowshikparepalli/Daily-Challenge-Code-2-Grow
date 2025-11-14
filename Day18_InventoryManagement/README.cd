@@ -1,0 +1,31 @@
+Includes the standard input/output library so you can use printf() and scanf().
+productID[10]: Stores up to 10 product IDs.
+name[10][50]: Stores up to 10 names (each max 50 characters).
+quantity[10]: Stores quantity of each product.
+price[10]: Stores price of each product.
+value[10]: Stores total value (quantity × price) of each product..
+n: Number of products.
+choice: Menu choice.
+searchID: Used when searching a product.
+highIndex, lowIndex: Store index of highest/lowest value product.
+User enters how many products they want to manage.
+A loop to read details for each product.
+Inside the loop:
+Enter product ID.
+Enter product name.
+Enter quantity.
+Enter price.
+Calculate value:
+This stores total value of each product.
+This loop keeps showing the menu until the user selects 5 (Exit).
+Prints a table of:
+ID, Name, Quantity, Price, Total Value.
+Loop checks each product:
+If value is bigger → update highest.
+If value is smaller → update lowest.
+Then prints ID, name, and value of those products.
+Loop checks if any product ID matches:
+If found → print product details
+If not → print "not found".
+Prints exit message and stops the menu loop.
+Shows your name, registration number, and challenge info.
