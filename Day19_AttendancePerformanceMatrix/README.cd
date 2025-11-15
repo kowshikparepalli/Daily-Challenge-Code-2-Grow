@@ -1,0 +1,24 @@
+Includes the standard input/output library so we can use printf and scanf.
+Declares 2D arrays for attendance and marks of 5 students in 5 subjects.
+i, j are loop variables.
+choice is for menu selection.
+Arrays to store total attendance, absences, and total marks for each student.
+Variables to track highest and lowest attendance.
+Stores the index of the student with highest/lowest attendance.
+Variables to store highest and lowest total marks.
+Stores index of topper and lowest performer.
+Array to store average marks of each student.
+Array to store student names and their grades.
+Prompts user to enter 5 student names.
+Reads 5 names using a loop.
+Explains attendance format to user.
+Reads 25 attendance values (5 students × 5 subjects).
+Prompts for marks input.
+Reads 25 marks values.
+Reset totals for each student before counting.
+Count present and absent classes.
+Add marks of each subject for each student.
+Average marks for a student.
+Assigns grade based on average.
+And we have to caluculate.
+usin the Loops.
