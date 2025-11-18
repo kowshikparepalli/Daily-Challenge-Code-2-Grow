@@ -1,0 +1,27 @@
+Imports the standard input/output library so we can use printf and scanf.
+Declares the function that prints the menu options.
+Declares a function that finds a product index using its ID.
+Prototype for adding a product.
+Prototype for searching a product by ID.
+Prototype for increasing or decreasing a product’s quantity.
+Prototype for 3×3 rack matrix analysis.
+Prototype for calculating stock value of all products.
+Prototype to print product table.
+Three arrays that store product ID, quantity, and price.
+Tracks number of products stored.
+Menu choice variable.
+Start of do–while loop for menu repetition.
+Calls menu printing function.
+If user chooses 1, call addProduct().
+Search a product.
+Update stock.
+Analyze rack matrix.
+Compute stock values.
+Exit program.
+Start of function.
+Prints menu options.
+Function receives ID array, count, and target ID.
+Loops through all products.
+Function for adding a new product.
+Temporary variables for new product details.
+  
