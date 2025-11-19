@@ -1,0 +1,39 @@
+#include <stdio.h> : Includes standard input/output functions like printf and scanf.
+#define MAX 30 : Defines a constant value 30, the maximum number of vehicles that can be stored.
+inputData : Reads vehicle details into arrays.
+countSpeedViolations : Counts how many vehicles exceed speed limit.
+countLaneViolations : Counts lane violations.
+busiestLane : Finds lane with most vehicles.
+leastBusyLane : Finds lane with fewest vehicles.
+displayReport : Displays a complete formatted report.
+Program execution begins here.
+Three arrays to store:
+Vehicle ID, Speed, Lane number.
+Keeps track of total vehicles stored.
+Stores the user's menu selection.
+Starts a loop so user can choose multiple operations.
+Displays program title.
+If user chooses 1, input new vehicle data.
+Calls function to store vehicle info.
+If user chooses 2, count speed violations.
+Calls speed violation function and prints result.
+If user chooses 3, lane violations are checked.
+Runs lane violation check and displays results.
+If user chooses 4, traffic density is calculated.
+Finds busiest and quietest lanes.
+Displays analysis output.
+If user chooses 5, full table report is shown.
+If user chooses 0, exit the program.
+Handles wrong menu inputs.
+Handles wrong menu inputs.
+End of main function.
+Reads vehicle information from user.
+Receives arrays and current count.
+Local variables for loop and number of entries.
+Asks how many vehicles to input.
+Checks if memory limit exceeds 30.
+Each row displays:
+vehicle ID:
+speed, lane.
+speed violation (1 = yes, 0 = no).
+lane violation (1 = yes, 0 = no).
